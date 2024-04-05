@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    justify-content: center;
+}
+.container{
+    display: flex;
+     background-color: aquamarine;
+    margin: auto;   
+}
+.signin{
+    width: 50%;
+    background-color: aliceblue;
+}
+.title{
+    margin: 20px;
+    text-align: center;
+}
+.signin img{
+    width: 100px;
+    height: 100px;   
+}
+.signin p{
+    margin: 12px;
+    text-align: center;
+}
+.tfield {
+    height: 40px;
+    background-color: lightgray;
+    border-radius: 12px;  
+    margin: 20px;
+}
+.tfield i {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.tfield #username,
+#password {
+    border: none;
+    outline: none;
+    align-items: center;
+    font-size: 15px;
+    background: none;
+}
+.btn{
+    height: 40px;
+    background-color: lightgrey;
+    border-radius: 12px;
+    margin: 20px;
+    width: 80%;
+    border: none;
+}
+.do p{
+    margin: 20px;
+}
+.some{
+    display: flex;
+    justify-content: center;
+}
+.some a{
+    margin: 10px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+
+}
+.infinity{
+    width: 50%;
+    background-image:url('city.jpg'); 
+    color: white;
+    
+}
+.infinity img{
+    width: 100px;
+    height: 100px; 
+}
+.infinity h1{
+    text-align: center;
+    margin-top: 35%;
+}
+.infinity p{
+    text-align: center;
+    margin: 5%;
+}
+@media only screen and (max-width:620px){
+.signin{
+    height: 100%;
+    width: 100%;
+}
+.infinity{
+    display: none;
+}
+}
